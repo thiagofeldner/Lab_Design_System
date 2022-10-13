@@ -18,7 +18,7 @@ jobs:
         with: 
           node-version: 16
       
-      -name: Install dependecies
+      - name: Install dependecies
         run: npm ci --legacy-peer-deps
       
       - name: Install dependecies
